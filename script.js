@@ -9,11 +9,30 @@ const listaProdotti = ['Uova','Pane','Latte','Biscotti','Pasta','Affettati','For
 
 //creo il ciclo for con gli elementi della lista della spesa
 
-let listaSpesa = '';
+/* let listaSpesa = '';
 
 for (let i = 0; i < listaProdotti.length; i++)
-{listaSpesa += <li> ${listaProdotti[i]} </li>}
+{listaSpesa += `<li> ${listaProdotti[i]} </li>`}
 
 
 
+Spesa.innerHTML = listaSpesa */
 
+
+//ciclo while
+
+let listaSpesa = '';
+
+let i = 0
+
+while (i < listaProdotti.length) {{listaSpesa += `<li> ${listaProdotti[i]} </li>`}
+    
+    i++
+    
+
+
+
+    
+}
+
+Spesa.innerHTML = listaSpesa
